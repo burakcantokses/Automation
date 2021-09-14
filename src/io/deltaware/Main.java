@@ -1,10 +1,14 @@
+/*
+ * @Delta 2019-2021
+ */
 package io.deltaware;
 
+/**
+ * @Author burakcantokses
+ */
 public class Main {
 
     public static void main(String[] args) {
-        DataManager.readData(1);
-        //Delta.firstStart();
-        //DataManager.writeData("Burakcan", "Tokses", "15TL", 1);
+        Delta.start();
     }
 }
