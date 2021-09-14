@@ -1,7 +1,12 @@
 /*
  * @Delta 2019-2021
  */
-package io.deltaware;
+package io.deltaware.check;
+
+import io.deltaware.Delta;
+import io.deltaware.managers.BalanceManager;
+import io.deltaware.managers.DataManager;
+import io.deltaware.managers.PurchaseManager;
 
 import java.io.File;
 import java.util.Scanner;
@@ -60,7 +65,7 @@ public class Check {
         File file = new File(Delta.directory+"\\data"+id+".json");
         DataManager dataManager = new DataManager();
         BalanceManager balanceManager = new BalanceManager();
-        Purchase purchase = new Purchase();
+        PurchaseManager purchase = new PurchaseManager();
         dataManager.readData(id);
         balanceManager.setBalance(dataManager.getDataBalance());
         int balance = balanceManager.getBalance();

@@ -1,7 +1,7 @@
 /*
  * @Delta 2019-2021
  */
-package io.deltaware;
+package io.deltaware.managers;
 
 /**
  * @Author burakcantokses

@@ -3,6 +3,8 @@
  */
 package io.deltaware;
 
+import io.deltaware.check.Check;
+
 import java.io.File;
 
 /**

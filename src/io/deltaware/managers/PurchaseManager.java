@@ -1,12 +1,12 @@
 /*
  * @Delta 2019-2021
  */
-package io.deltaware;
+package io.deltaware.managers;
 
 /**
  * @Author burakcantokses
  */
-public class Purchase {
+public class PurchaseManager {
     //Ürünün varsayılan fiyatı.
     public int price = 17;
 

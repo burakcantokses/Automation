@@ -1,8 +1,10 @@
 /*
  * @Delta 2019-2021
  */
-package io.deltaware;
+package io.deltaware.managers;
 
+import io.deltaware.check.Check;
+import io.deltaware.Delta;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 
